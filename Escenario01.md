@@ -59,6 +59,8 @@ Habilitar el trafico web(http) y web seguro (https) en el firewall de la maquina
 
 - De esta manera se tiene un servidor web configurado
 
+<img src ="Imagenes1D/prueba.JPG" height="320" >
+
 4. **Acceso y red host only:** Para acceder al servidor web(maquina CentOS7) desde el host principal, se procede crear una red **host only**
 
 - Para ello se debe crear un adaptador de red virtual en el host
