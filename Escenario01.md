@@ -69,7 +69,7 @@ Habilitar el trafico web(http) y web seguro (https) en el firewall de la maquina
 
 - Luego de debe configufrar la preferencia de red para el guest, de manera que se concecte a la red host only. Se espera que al conectarse a la red, obtenga una direccion IP orotgada por el servidor DHCP configurado anteriormente.
 
-<img src ="Imagenes1D/hostonly.JPG" height="320" >
+<img src ="Imagenes1D/ipv4.JPG" height="320" >
 
 - Se verifica que el host, tenga un adaptador de red virtual para conectarse a la red host only
 
