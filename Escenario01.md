@@ -67,18 +67,18 @@ Habilitar el trafico web(http) y web seguro (https) en el firewall de la maquina
 
 <img src ="Imagenes1D/hostonly.JPG" height="320" >
 
-- Luego de debe configufrar la preferencia de red para el guest, de manera que se concecte a la red host only. Se espera que al conectarse a la red, obtenga una direccion IP orotgada por el servidor DHCP configurado anteriormente.
+- Luego de debe configufrar la preferencia de red para el guest, de manera que se concecte a la red host only. Se espera que al conectarse a la red, obtenga una direccion **IP** otorgada por el servidor DHCP configurado anteriormente.
 
 <img src ="Imagenes1D/ipv4.JPG" height="320" >
 
-- Se verifica que el host, tenga un adaptador de red virtual para conectarse a la red host only
+- Se verifica que el host Windows, tenga un adaptador de red virtual para conectarse a la red host only
 
-<img src ="Imagenes1D/hostonlyw.JPG" height="320" >
+<img src ="Imagenes1D/hostonlyw.JPG" height="300" >
 
-- Por ultimo accedemos desde el host al servidor web alojado en la maquina CentOS7 usando **https://192.168.92.3** y se despliega el index del servidor
+- Por ultimo accedemos desde el host al servidor web alojado en la maquina CentOS7 usando **http://192.168.92.3** y se despliega el index del servidor.
 
 
-<img src ="Imagenes1D/pruebafinal.JPG" height="320" >
+<img src ="Imagenes1D/pruebafinal.JPG" height="330" >
 
 
 
