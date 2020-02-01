@@ -65,11 +65,11 @@ Habilitar el trafico web(http) y web seguro (https) en el firewall de la maquina
 
 - Para ello se debe crear un adaptador de red virtual en el *host*. Esto se hace en virtual box, en la pestaña preferencias se crea un nuevo adaptador de red y ademas se configura un servidor **DHCP** para la asignación dinamica de direcciones IP.
 
-<img src ="Imagenes1D/hostonly.JPG" height="220" >
+<img src ="Imagenes1D/hostonly.JPG" height="250" >
 
 - Luego de debe configurar la preferencia de red para el guest, de manera que se concecte a la red host only. Se espera que al conectarse a la red, obtenga una direccion **IP** otorgada por el servidor DHCP configurado anteriormente.
 
-<img src ="Imagenes1D/ipv4.JPG" height="220" >
+<img src ="Imagenes1D/ipv4.JPG" height="200" >
 
 - Se verifica que el host Windows, tenga un adaptador de red virtual para conectarse a la red host only
 
