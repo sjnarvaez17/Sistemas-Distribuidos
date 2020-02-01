@@ -10,7 +10,7 @@ Solución primer laboratorio del curso  **Sistema Distribuidos**
 
  1. **VirtualBox:** El proceso de instalación de virtual box es bastante sencillo, basta con buscar en el navegador, el sitio web oficial de descargar de virtual box y seleccionar el paquete de la plataforma correspondiente. En mi caso descargo el paquete de un **host windows**. Virtual box es un hipervisor liviano, que se instala rápidamente y no presenta dificultades en el proceso de instalación.
  
-      <img src ="Imagenes1D/VirtualBox.JPG" height="310" >
+      <img src ="Imagenes1D/VirtualBox.JPG" height="300" >
 
 2. **CentOS:** El paso siguiente es descargar una maquina virtual CentOS que sea soportada por el hipervisor VirtalBox, para hacer la respectiva instalación de la misma, en este caso la imagen ISO corresponde a **CentOS7**. 
 - El primer paso es crear la maquina virtual en VirtualBox
@@ -63,6 +63,27 @@ Habilitar el trafico web(http) y web seguro (https) en el firewall de la maquina
 
 4. **Acceso y red host only:** Para acceder al servidor web(maquina CentOS7) desde el host principal, se procede crear una red **host only**
 
-- Para ello se debe crear un adaptador de red virtual en el host
+- Para ello se debe crear un adaptador de red virtual en el *host*. Esto se hace en virtual box, en la pestaña preferencias se crea un nuevo adaptador de red y ademas se configura un servidor **DHCP** para la asignación dinamica de direcciones IP.
 
-- Luego de debe configufrar la preferencia de red para el guest, de manera que se concecte a la red host only
+<img src ="Imagenes1D/hostonly.JPG" height="320" >
+
+- Luego de debe configufrar la preferencia de red para el guest, de manera que se concecte a la red host only. Se espera que al conectarse a la red, obtenga una direccion IP orotgada por el servidor DHCP configurado anteriormente.
+
+<img src ="Imagenes1D/hostonly.JPG" height="320" >
+
+- Se verifica que el host, tenga un adaptador de red virtual para conectarse a la red host only
+
+<img src ="Imagenes1D/hostonlyw.JPG" height="320" >
+
+- Por ultimo accedemos desde el host al servidor web alojado en la maquina CentOS7 usando **https://192.168.92.3** y se despliega el index del servidor
+
+
+<img src ="Imagenes1D/pruebafinal.JPG" height="320" >
+
+
+
+
+
+
+
+
