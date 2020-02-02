@@ -83,6 +83,10 @@ Habilitar el trafico web(http) y web seguro (https) en el firewall de la maquina
 
 ## Dificultades
 
+- La mayor dificultad se presento en el proceso de instalación de **CentOS7**, el proceso de instalacíon es muy lento y resulta engorroso la selección de tantas preferencias de instalación, como configurar los usuarios y el root, entradas de texto, almacenamiento fuente y destino, y demas.
+
+- Configurar la red **host only** presento dificultades, ya que desconocia el proceso de configuración y en un primer intento no habia configurado de manera correcta el adaptador virtual para el host, igualmente el servicio DHCP no funcionaba correctamente , de manera que no lograba que el host Windows y el guest CentOS7 se comunicaran en la red.
+
 ## Reflexión
 
 
