@@ -89,6 +89,8 @@ Habilitar el trafico web(http) y web seguro (https) en el firewall de la maquina
 
 ## Reflexión
 
+- El mundo actual es cambiante y dinamico, como lo son los negocios, las empresas y sobre todo la tecnologia. Por esta razon, las tareas manuales resultan inadecuadas sobre todo para temas de infraestucturas de red, ambientes de desarrollo y de pruebas. Estas tareas totalmentes manuales, pueden ser un poco mas sencillas en la medida que se cuenta con una GUI, pero se traducen en una gran perdida de tiempo en la instalacion,configuracion y soporte de los servicios de TI que se desplegan. En este laboratorio, donde solo se necesitaba configurar una maquina vitual y un servicio web en la misma, se evidencio que una tarea al parecer simple puede tomar mucho mas tiempo del necesario. Seguramente las tareas de configuración manual pueden ser muy utiles en algunos contentos, pero para las infraestucturas de red y sistemas resultan inadecuadas. Por esta razon se debe buscan automatizas al maximo las tareas , reduciendo el tiempo de ejecuccíon de las mismas y optimizando cada vez mas los procesos.
+
 
 
 
