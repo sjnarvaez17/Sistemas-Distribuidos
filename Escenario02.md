@@ -55,6 +55,6 @@ Solución del segundo taller **Sistemas Distribuidos**
 <img src ="E02/prueba3.JPG" height="220" >
 
 
-5. **Aprovisionamiento de los servidores:** Utilizando Ansible se pueden aprovisionar las maquinas virtuales de manera automatizada mendiante scripts que permiten hacer la gestion de las aplicaciones o servidios que se instalan en las maquinas.
+5. **Aprovisionamiento de los servidores:** Utilizando Ansible se pueden aprovisionar las maquinas virtuales de manera automatizada mediante scripts que permiten hacer la gestion de las aplicaciones o servidios que se instalan en las maquinas. Para uno de los servidores se tendra que aprovisionar un servidor web **Nginx** y el segundo servidor tendra un servidor de base de datos **postgresql.**
 
 
