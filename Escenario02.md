@@ -57,6 +57,18 @@ Solución del segundo taller **Sistemas Distribuidos**
 
 5. **Descargar Ansible:** Esta tecnologia permite aprovisionar maquinas de forma automatizada por medio de scripts, al igual que administrar tareas y procesos de la MV. 
 
+- Para instalar Ansible, se debe instalar **Anaconda**, este software permite bajar el Ansible compatible con Windows 10.
+
+<img src ="E02/Conda.JPG" height="80" >
+
+- Luego, desde la consola de Anaconda, se deben ejecutar los comandos:
+
+`conda install -c conda-forge ansible`
+
+`conda install -c conda-forge/label/cf201901 ansible`
+
+Esto nos va a permitir descargar el Ansible a nuestro host windows para posteriormente aprovisionar los servidores con las aplicaciones.
+
 
 6. **Aprovisionamiento de los servidores:** Utilizando Ansible se pueden aprovisionar las maquinas virtuales de manera automatizada mediante scripts que permiten hacer la gestion de las aplicaciones o servidios que se instalan en las maquinas. Para uno de los servidores se tendra que aprovisionar un servidor web **Nginx** y el segundo servidor tendra un servidor de base de datos **postgresql.**
 
