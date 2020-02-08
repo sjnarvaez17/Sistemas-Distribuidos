@@ -8,7 +8,7 @@ Solución del segundo taller **Sistemas Distribuidos**
 
 - Este es el archivo vagrant file de configuraicon inicial para nuestra maquina virtual CentOS7
 
-  <img src ="E02/vagranfile1.JPG" height="260" >
+  <img src ="E02/vagranfile1.JPG" height="280" >
   
 - Se hace efectiva la creación de la maquina con el comando vagrant up
 
@@ -16,7 +16,7 @@ Solución del segundo taller **Sistemas Distribuidos**
   
 - Por ultimo se verifica que la maquina, efectivamente se ha creado y se puede acceder en Virtual Box
 
-<img src ="E02/prueba1.JPG" height="260" >
+<img src ="E02/prueba1.JPG" height="240" >
 
 2. **Acceder por SSH:** Despues de crear la MV, accedemos a ella de manera remota, para poder hacer gestion o tener acceso a la consola. Esto se logra mediante SSH y se hace efectivo con el comando **vagran ssh default** en la consola de Visual, depues de ello se veficia que ya tenemos acceso a la consola de la maquina virtual que hemos creado anteriormente.   
 
@@ -28,7 +28,7 @@ Solución del segundo taller **Sistemas Distribuidos**
 
 - Este es el archivo vagrant file de configuracion inicial, para la creacion de los dos servidores.
 
-<img src ="E02/vagranfile2.JPG" height="270" >
+<img src ="E02/vagranfile2.JPG" height="280" >
 
 - Con el comando **vagrant status** , se evidencia que los dos servidoreshan sido creados y se encuentran corriendo.
 
@@ -37,4 +37,8 @@ Solución del segundo taller **Sistemas Distribuidos**
 - Igualmente se puede evidenciar que las maquinas efectivamente han sido creadas en Virtual Box
 
 
-<img src ="E02/prueba3.JPG" height="230" >
+<img src ="E02/prueba3.JPG" height="220" >
+
+4. **Aprovisionamiento de los servidores:** Utilizando Ansible se pueden aprovisionar las maquinas virtuales de manera automatizada mendiante scripts que permiten hacer la gestion de las aplicaciones o servidios que se instalan en las maquinas.
+
+
