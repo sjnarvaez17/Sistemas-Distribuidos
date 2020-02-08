@@ -33,7 +33,7 @@ Solución del segundo taller **Sistemas Distribuidos**
 
   <img src ="E02/destruida.JPG" height="90" >
   
-- Con el comando **vagrant up** es posible reconstruir la MV y se evidencia con el comando **vagrant status**
+- Con el comando **vagrant up** es posible reconstruir la MV y se evidencia que nuevamente se encuentra corriendo con el comando **vagrant status**
 
   <img src ="E02/reconstruida.JPG" height="90" >
 
