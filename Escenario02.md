@@ -23,7 +23,18 @@ Solución del segundo taller **Sistemas Distribuidos**
 
 <img src ="E02/ssh.JPG" height="60" >
 
-3. **Crear dos servidores:** El siguiente paso es crear dos servidores virtuales, usando la herramienta Vagrant, que permite automatizar el proceso, y mediante un script crear las dos maquinas virtuales, con su configuración inicial. Para ello es necesario un archivo Vagrant file que se ejecute en la consola de Visual.
+
+3. **Destruir un Servidor:** Para destruir una MV , se usa el comando **Vagrant destroy** , este detiene la maquina en ejecuccion y destruye todos los recursos y procesos que se crearon durante su ejecucción. Dejando la maquina host como si nunca hubiese creado nunca la maquina virtual. Sin embargo la caja que contiene la imagen de la MV seguira instalada en el host.
+
+
+  <img src ="E02/destroy.JPG" height="50" >
+   
+- Se evidencia que la maquina virtual ha sido destruida y no se encuentra en ejecucción.
+
+  <img src ="E02/destruida.JPG" height="90" >
+
+
+4. **Crear dos servidores:** El siguiente paso es crear dos servidores virtuales, usando la herramienta Vagrant, que permite automatizar el proceso, y mediante un script crear las dos maquinas virtuales, con su configuración inicial. Para ello es necesario un archivo Vagrant file que se ejecute en la consola de Visual.
 
 
 - Este es el archivo vagrant file de configuracion inicial, para la creacion de los dos servidores.
@@ -39,6 +50,7 @@ Solución del segundo taller **Sistemas Distribuidos**
 
 <img src ="E02/prueba3.JPG" height="220" >
 
-4. **Aprovisionamiento de los servidores:** Utilizando Ansible se pueden aprovisionar las maquinas virtuales de manera automatizada mendiante scripts que permiten hacer la gestion de las aplicaciones o servidios que se instalan en las maquinas.
+
+5. **Aprovisionamiento de los servidores:** Utilizando Ansible se pueden aprovisionar las maquinas virtuales de manera automatizada mendiante scripts que permiten hacer la gestion de las aplicaciones o servidios que se instalan en las maquinas.
 
 
