@@ -31,11 +31,11 @@ Solución del segundo taller **Sistemas Distribuidos**
    
 - Se evidencia que la maquina virtual ha sido destruida y no se encuentra en ejecucción.
 
-  <img src ="E02/destruida.JPG" height="90" >
+  <img src ="E02/destruida.JPG" height="70" >
   
 - Con el comando **vagrant up** es posible reconstruir la MV y se evidencia que nuevamente se encuentra corriendo con el comando **vagrant status**
 
-  <img src ="E02/reconstruida.JPG" height="90" >
+  <img src ="E02/reconstruida.JPG" height="70" >
 
 
 4. **Crear dos servidores:** El siguiente paso es crear dos servidores virtuales, usando la herramienta Vagrant, que permite automatizar el proceso, y mediante un script crear las dos maquinas virtuales, con su configuración inicial. Para ello es necesario un archivo Vagrant file que se ejecute en la consola de Visual.
