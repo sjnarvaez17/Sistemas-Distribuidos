@@ -21,4 +21,20 @@ Solución del segundo taller **Sistemas Distribuidos**
 2. **Acceder por SSH:** Despues de crear la MV, accedemos a ella de manera remota, para poder hacer gestion o tener acceso a la consola. Esto se logra mediante SSH y se hace efectivo con el comando **vagran ssh default** en la consola de Visual, depues de ello se veficia que ya tenemos acceso a la consola de la maquina virtual que hemos creado anteriormente.   
 
 
-<img src ="E02/ssh.JPG" height="70" >
+<img src ="E02/ssh.JPG" height="60" >
+
+3. **Crear dos servidores:** El siguiente paso es crear dos servidores virtuales, usando la herramienta Vagrant, que permite automatizar el proceso, y mediante un script crear las dos maquinas virtuales, con su configuración inicial. Para ello es necesario un archivo Vagrant file que se ejecute en la consola de Visual.
+
+
+- Este es el archivo vagrant file de configuracion inicial, para la creacion de los dos servidores.
+
+<img src ="E02/vagranfile2.JPG" height="270" >
+
+- Con el comando **vagrant status** , se evidencia que los dos servidoreshan sido creados y se encuentran corriendo.
+
+<img src ="E02/prueba2.JPG" height="80" >
+
+- Igualmente se puede evidenciar que las maquinas efectivamente han sido creadas en Virtual Box
+
+
+<img src ="E02/prueba3.JPG" height="230" >
