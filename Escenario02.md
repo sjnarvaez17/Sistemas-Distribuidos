@@ -55,7 +55,10 @@ Solución del segundo taller **Sistemas Distribuidos**
 <img src ="E02/prueba3.JPG" height="220" >
 
 
-5. **Aprovisionamiento de los servidores:** Utilizando Ansible se pueden aprovisionar las maquinas virtuales de manera automatizada mediante scripts que permiten hacer la gestion de las aplicaciones o servidios que se instalan en las maquinas. Para uno de los servidores se tendra que aprovisionar un servidor web **Nginx** y el segundo servidor tendra un servidor de base de datos **postgresql.**
+5. **Descargar Ansible:** Esta tecnologia permite aprovisionar maquinas de forma automatizada por medio de scripts, al igual que administrar tareas y procesos de la MV. 
+
+
+6. **Aprovisionamiento de los servidores:** Utilizando Ansible se pueden aprovisionar las maquinas virtuales de manera automatizada mediante scripts que permiten hacer la gestion de las aplicaciones o servidios que se instalan en las maquinas. Para uno de los servidores se tendra que aprovisionar un servidor web **Nginx** y el segundo servidor tendra un servidor de base de datos **postgresql.**
 
 - El archivo de configuración inicial Vagrant file, especifica la ruta donde se encuentra el script de ansible, que va a permitir aprovisionar los servidores que se van a crear usando vagrant.Ademas en el archivo de host, se especifica las maquinas virtuales que seran aprovisionadas mediante el script.
 
