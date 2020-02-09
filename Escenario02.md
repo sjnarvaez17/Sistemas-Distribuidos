@@ -77,6 +77,11 @@ Esto nos va a permitir descargar el Ansible a nuestro host windows para posterio
 <img src ="E02/vagranfile3.JPG" height="280" >
 
 
+- Se crean las maquinas virtuales, despues de dar Vagrant up al archivo de configuración.
+
+<img src ="E02/Maquinas.JPG" height="230" >
+
+
 
 
 
