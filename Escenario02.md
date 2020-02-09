@@ -74,12 +74,12 @@ Esto nos va a permitir descargar el Ansible a nuestro host windows para posterio
 
 - El archivo de configuración inicial Vagrant file, especifica la ruta donde se encuentra el script de ansible, que va a permitir aprovisionar los servidores que se van a crear usando vagrant.Ademas en el archivo de host, se especifica las maquinas virtuales que seran aprovisionadas mediante el script.
 
-<img src ="E02/vagranfile3.JPG" height="230" >
+<img src ="E02/vagranfile3.JPG" height="240" >
 
 
 - Se crean las maquinas virtuales, despues de dar Vagrant up al archivo de configuración.
 
-<img src ="E02/Maquinas.JPG" height="260" >
+<img src ="E02/Maquinas.JPG" height="270" >
 
 
 
