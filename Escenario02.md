@@ -84,10 +84,9 @@ Esto nos va a permitir descargar el Ansible a nuestro host windows para posterio
 
 
 ## Problemas:
+   
+En el desarrollo del taller, se presentaron algunos inconvenientes de incompatibilidad con el sistema operativo Windows. El primer inconveniente fue la descarga del software Ansible, ya que se tuvo que usar la distribución de Anaconda como servidor, para descargar el software. Aunque el proceso de instalación se terminó correctamente, el Vagrant no identifica el aprovisionador Ansible en el sistema operativo, notificando un mensaje de error que el Ansible no está instalado y no es posible aprovisionar las maquinas. Es decir, para hacer el aprovisionamiento de las maquinas se debía hacer desde el mismo Ansible guest, usando el Ansible de cada máquina virtual que ya ha sido creada con Vagrant.
 
-<div class=text-justify>   
-En el desarrollo del taller, se presentaron algunos inconvenientes de incompatiblidad con el sistema operativo Windows.El primer inconveniene fue la descarga del software Ansible, ya que se tuvo que usar la distribuccion de Anaconda como servidor, para descargar el software. Aunque el proceso de instalación se termino correctamente, el Vagrant no identifica el aprovisionador Ansible en el sistema operativo, notificando un mensaje de error que el Ansible no esta instalado y no es posible aprovisionar las maquinas.
-</div>
 
 
 
