@@ -87,6 +87,12 @@ Esto nos va a permitir descargar el Ansible a nuestro host windows para posterio
    
 En el desarrollo del taller, se presentaron algunos inconvenientes de incompatibilidad con el sistema operativo Windows. El primer inconveniente fue la descarga del software Ansible, ya que se tuvo que usar la distribución de Anaconda como servidor, para descargar el software. Aunque el proceso de instalación se terminó correctamente, el Vagrant no identifica el aprovisionador Ansible en el sistema operativo, notificando un mensaje de error que el Ansible no está instalado y no es posible aprovisionar las maquinas. Es decir, para hacer el aprovisionamiento de las maquinas se debía hacer desde el mismo Ansible guest, usando el Ansible de cada máquina virtual que ya ha sido creada con Vagrant.
 
+## Reflexión:
+
+La automatización es la forma optima para la configuración, administración y despliegue de maquinas en entornos de producción. La automatizacíon como codigo permite crear y configurar maquinas rapidamente,siendo adecuada para sistemas distribuidos y microservicios. La infraestuctura como codigo permite automatizas, acelerar, integrar y repetir tareas de administración y gestion de TI. Sin embargo la IaC necesita mucha practica para realizar las configuracion correctas y las tareas se ejecuten de manera adecuada. La IaC es propensa a errores de configuracion, incompatbilidad, permisos y ejecucción. Ademas no resulta tan intuitiva como las interfaces graficas o asistentes de instlación. La IaC es optima para ambientes de prueba o produccion donde se requiera automatizar numerosas tareas de gestión y administración de servicios TI.
+
+
+
 
 
 
